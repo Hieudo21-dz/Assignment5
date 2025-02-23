@@ -114,7 +114,7 @@ public class MatrixMultiplier {
 
     public static int[][] multiplyMatrices(int[][] A, int[][] B) {
         int rowsA = A.length;
-        int colsA = A[0].length; // same as rowsB
+        int colsA = A[0].length;
         int colsB = B[0].length;
         int[][] product = new int[rowsA][colsB];
         for (int i = 0; i < rowsA; i++) {
